@@ -69,5 +69,5 @@ We encourage you to test your code on docker cluster please follow this for [doc
 
 ## Website
 
-[Sharp ETL site](https://izhangzhihao.gitlab.io/sharp-etl/docs/next/quick-start-guide/) is hosted on a special `doc` branch. Please follow the `README` file under `docs` on that branch for
+[Sharp ETL site](https://sharpdata.github.io/SharpETL/docs/next/quick-start-guide/) is hosted on a special `doc` branch. Please follow the `README` file under `docs` on that branch for
 instructions on making changes to the website.

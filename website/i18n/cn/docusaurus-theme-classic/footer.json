@@ -19,10 +19,6 @@
     "message": "Blog",
     "description": "The label of footer link with label=Blog linking to /blog"
   },
-  "link.item.label.Talks & Articles": {
-    "message": "Talks & Articles",
-    "description": "The label of footer link with label=Talks & Articles linking to powered-by"
-  },
   "link.item.label.FAQ": {
     "message": "FAQ",
     "description": "The label of footer link with label=FAQ linking to https://cwiki.apache.org/confluence/display/HUDI/FAQ"

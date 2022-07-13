@@ -16,8 +16,9 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: '/assets/images/favicon.ico',
-  organizationName: 'tw',
+  organizationName: 'Sharp Data',
   projectName: 'Sharp ETL!',
+  onBrokenLinks: 'ignore',
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'cn'],
@@ -78,10 +79,6 @@ module.exports = {
         },
         redirects: [
           {
-            from: ['/docs/contribute', '/docs/next/contribute'],
-            to: '/contribute/get-involved',
-          },
-          {
             from: ['/docs/learn'],
             to: '/learn/faq',
           },
@@ -93,7 +90,7 @@ module.exports = {
     navbar: {
       logo: {
         alt: 'Sharp ETL',
-        src: 'assets/images/hudi.png',
+        src: 'assets/images/sharp-etl.png',
       },
       items: [
         {
@@ -109,16 +106,8 @@ module.exports = {
               to: '/blog',
             },
             {
-              label: 'Talks & Articles',
-              to: 'talks-articles',
-            },
-            {
               label: 'FAQ',
               href: '/learn/faq',
-            },
-            {
-              label: 'Technical Wiki',
-              href: 'https://cwiki.apache.org/confluence/display/HUDI',
             }
           ],
         },
@@ -126,10 +115,6 @@ module.exports = {
           label: 'Contribute',
           position: 'left',
           items: [
-            {
-              label: 'Get Involved',
-              to: '/contribute/get-involved',
-            },
             {
               label: 'How to Contribute',
               to: '/contribute/how-to-contribute',
@@ -139,20 +124,11 @@ module.exports = {
               to: '/contribute/developer-setup',
             },
             {
-              label: 'RFC Process',
-              to: '/contribute/rfc-process',
-            },
-            {
-              label: 'Report Security Issues',
-              to: '/contribute/report-security-issues',
-            },
-            {
               label: 'Report Issues',
               href: 'https://github.com/SharpData/SharpETL/issues',
             }
           ],
         },
-        {to: '/powered-by', label: "Who's Using", position: 'left'},
         {to: '/releases/download', label: 'Download', position: 'left'},
         // right
         {
@@ -193,11 +169,7 @@ module.exports = {
             {
               label: 'Download',
               to: '/releases/download',
-            },
-            {
-              label: 'Who\'s Using',
-              to: 'powered-by',
-            },
+            }
           ],
         },
         {
@@ -206,22 +178,6 @@ module.exports = {
             {
               label: 'Quick Start',
               to: 'docs/next/quick-start-guide',
-            },
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'Talks & Articles',
-              to: 'talks-articles',
-            },
-            {
-              label: 'FAQ',
-              href: '/learn/faq',
-            },
-            {
-              label: 'Technical Wiki',
-              href: 'https://cwiki.apache.org/confluence/display/HUDI',
             }
           ],
         },
@@ -229,59 +185,18 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Get Involved',
-              to: '/contribute/get-involved'
-            },
-            {
-              label: 'Slack',
-              href: 'https://join.slack.com/t/apache-hudi/shared_invite/enQtODYyNDAxNzc5MTg2LTE5OTBlYmVhYjM0N2ZhOTJjOWM4YzBmMWU2MjZjMGE4NDc5ZDFiOGQ2N2VkYTVkNzU3ZDQ4OTI1NmFmYWQ0NzE',
-            },
-            {
               label: 'GitHub',
               href: 'https://github.com/SharpData/SharpETL',
             },
-            {
-              label: 'Mailing List',
-              to: 'mailto:dev-subscribe@hudi.apache.org?Subject=SubscribeToHudi',
-            },
           ],
-        },
-        {
-          title: 'Apache',
-          items: [
-            {
-              label: 'Events',
-              to: 'https://www.apache.org/events/current-event',
-            },
-            {
-              label: 'Thanks',
-              to: 'https://www.apache.org/foundation/thanks.html',
-            },
-            {
-              label: 'License',
-              to: 'https://www.apache.org/licenses',
-            },
-            {
-              label: 'Security',
-              to: 'https://www.apache.org/security',
-            },
-            {
-              label: 'Sponsorship',
-              to: 'https://www.apache.org/foundation/sponsorship.html',
-            },
-            {
-              label: 'Foundation',
-              to: 'https://www.apache.org',
-            },
-          ],
-        },
+        }
       ],
       logo: {
         alt: 'Sharp ETL™',
-        src: '/assets/images/logo-big.png',
-        href: 'https://hudi.apache.org/',
+        src: '/assets/images/sharp-data.png',
+        href: 'https://github.com/SharpData',
       },
-      copyright: 'Copyright © 2021',
+      copyright: 'Copyright © 2022',
     },
     prism: {
       theme: darkCodeTheme,
@@ -319,7 +234,7 @@ module.exports = {
         blog: {
           editUrl:
             'https://github.com/SharpData/SharpETL/edit/asf-site/website/blog/',
-          blogTitle: 'Blog - Sharp ETL: User-Facing Analytics',
+          blogTitle: 'Blog - Sharp ETL',
           blogSidebarCount: 10,
           blogSidebarTitle: 'Recent posts',
           /**
@@ -338,7 +253,7 @@ module.exports = {
           blogTagsPostsComponent: '@theme/BlogTagsPostsPage',
           feedOptions: {
             type: "all",
-            title: 'Sharp ETL: User-Facing Analytics',
+            title: 'Sharp ETL',
           },
           showReadingTime: true,
         },

@@ -23,10 +23,6 @@
     "message": "Blog",
     "description": "Navbar item with label Blog"
   },
-  "item.label.Talks & Powered By": {
-    "message": "Talks & Powered By",
-    "description": "Navbar item with label Talks & Powered By"
-  },
   "item.label.FAQ": {
     "message": "FAQ",
     "description": "Navbar item with label FAQ"
