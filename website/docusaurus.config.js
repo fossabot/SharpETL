@@ -12,7 +12,7 @@ module.exports = {
   title: 'Sharp ETL!',
   tagline: 'Sharp ETL!',
   url: 'https://google.com',
-  baseUrl: '/',
+  baseUrl: '/SharpETL/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: '/assets/images/favicon.ico',
