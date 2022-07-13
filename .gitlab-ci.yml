@@ -1,0 +1,19 @@
+image: node:14-slim
+
+pages:
+  cache:
+    paths:
+    - website/node_modules/
+
+  script:
+  - npm -v
+  - ls -al
+  - cd website && npm install && npm run build
+  - cp -R build/ ../public/
+
+  artifacts:
+    paths:
+    - public
+  
+  only:
+  - doc
